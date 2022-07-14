@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+   	<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Discord Streamkit Overlay カスタマイズ</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="settings">
+				<h4>配置</h4>
+				<label><input type="radio" name="arrangement" onchange="selectVertical1()" value="vertical" checked>縦並び1</label>
+				<label><input type="radio" name="arrangement" onchange="selectVertical2()" value="vertical">縦並び2</label>
+				<label><input type="radio" name="arrangement" onchange="selectHorizontal1()" value="horizontal">横並び1</label>
+				<label><input type="radio" name="arrangement" onchange="selectHorizontal2()" value="horizontal">横並び2</label><br>
+				<h4>アバターの設定</h4>
+				<label><input type="checkbox" id="checkAvatarSquare" onchange="changeAvatarSquare()" />四角にする</label><br>
+				<label><input type="checkbox" id="checkAvatarBright" onchange="changeAvatarBright()"/>話している人のみ明るくする</label><br>
+				<label><input type="checkbox" id="checkAvatarMove" onchange="changeAvatarMove()"/>話している人を動かす</label><br>
+				<input type="button" value="更新" onclick="viewResult();"/>
+			</div>
+			<div id="result">body {<br>background-color: rgba(0, 0, 0, 0);<br>margin: 0;<br>padding: 0;<br>overflow: hidden;<br>}</div>
+		</div>
+		<div id="preview">a</div>
+		<div id="test">a</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

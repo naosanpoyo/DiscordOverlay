@@ -1,0 +1,58 @@
+#container{
+	display: flex;
+}
+
+#preview{
+	
+}
+
+#result{
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid;
+	width: 380px;
+	font-size: small;
+	font-family: "Courier New", Consolas, monospace;
+}
+
+h4 {
+	margin-top: 10px;
+	margin-bottom: 0px; 
+}
+
+body{background-color:transparent}
+.voice-container{font-family:Whitney;font-weight:600;font-size:16px;line-height:19px;color:#fff}
+.voice-container .voice-states{list-style-type:none;padding-left:15px}
+.voice-container .voice-states .voice-state{height:50px;margin-bottom:8px}
+.voice-container .voice-states .voice-state .avatar{height:50px;width:50px;border:3px solid transparent;border-radius:50%;float:left;margin-right:8px}
+.voice-container .voice-states .voice-state .avatar.speaking{border-color:#43b581}
+.voice-container .voice-states .voice-state .user{padding-top:18px}
+.voice-container .voice-states .voice-state .user .name{background-color:#1e2124;border-radius:3px;padding:4px 6px}
+.voice-container .voice-states .voice-state.small-avatar{height:40px}
+.voice-container .voice-states .voice-state.small-avatar .avatar{height:40px;width:40px}
+.voice-container .voice-states .voice-state.small-avatar .user{padding-top:12px}
+@keyframes speak-now {
+  0% { bottom:0px; }
+  5% { bottom:10px; }
+  10% { bottom:0px; }
+  15% { bottom:10px; }
+  20% { bottom:0px; }
+  25% { bottom:10px; }
+  30% { bottom:0px; }
+  35% { bottom:10px; }
+  40% { bottom:0px; }
+  45% { bottom:10px; }
+  50% { bottom:0px; }
+  55% { bottom:10px; }
+  60% { bottom:0px; }
+  65% { bottom:10px; }
+  70% { bottom:0px; }
+  75% { bottom:10px; }
+  80% { bottom:0px; }
+  85% { bottom:10px; }
+  90% { bottom:0px; }
+  95% { bottom:10px; }
+  100% { bottom:0px; }
+}
